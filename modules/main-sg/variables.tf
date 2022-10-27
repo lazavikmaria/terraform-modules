@@ -6,7 +6,7 @@ variable "sg-name" {
   default = ""
 }
 
-#SG INBOUND RULES#
+#SG INBOUND RULES.#
 variable "ingress_allows" {
   description = "using ports 80,443,22 to open inbound rules"
  type = list
@@ -17,7 +17,7 @@ variable "protocol" {
 variable "cidr_blocks" {
   type = list
 }
-#SG OUTBOUND RULES#
+#SG OUTBOUND RULES.#
 variable "outbound-rule-from-port" {
   default = ""
 }

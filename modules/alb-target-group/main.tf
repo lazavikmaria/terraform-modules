@@ -1,4 +1,4 @@
-#Application Load Balancer Target Group
+#Application Load Balancer Target Group.
 
 resource "aws_lb_target_group" "alb-tg" {
   name                 = var.alb-tg-name

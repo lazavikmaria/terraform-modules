@@ -8,7 +8,7 @@ provider "aws" {
   default_tags {
     tags = {
       Environment = "dev"
-      Project     = "vertex"
+      Project     = ""
     }
   }
 } 

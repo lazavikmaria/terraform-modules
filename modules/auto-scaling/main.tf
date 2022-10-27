@@ -1,4 +1,4 @@
-# #CREATING A NEW KEY PAIR AND EXPORTING OUR PUBLIC-KEY
+# #CREATING A NEW KEY PAIR AND EXPORTING OUR PUBLIC-KEY.
 # resource "aws_key_pair" "key-pair" {
 #   key_name          = var.key-name
 #   public_key        = var.public-key-file-name

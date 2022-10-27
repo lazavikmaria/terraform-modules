@@ -1,4 +1,4 @@
-#LAUNCH CONFIGURATION AND AUTO-SCALING OUTPUT
+#LAUNCH CONFIGURATION AND AUTO-SCALING OUTPUT.
 
 output "launch-configuration" {
   value = aws_launch_configuration.launch-configuration.name
